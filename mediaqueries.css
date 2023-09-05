@@ -1,0 +1,186 @@
+@media screen and (max-width:950px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Noto Serif', serif;
+        color: #fff;
+        padding: 32px 10px 0px 10px;
+    }
+
+    header nav h1 {
+        font-size: 40px;
+    }
+
+    main {
+        width: 80%;
+    }
+
+    input {
+        width: 86%;
+        height: 30px;
+        font-size: 17px;
+    }
+
+    button {
+        height: 30px;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Noto Serif', serif;
+        color: #fff;
+        padding: 32px 10px 0px 10px;
+    }
+
+    header nav h1 {
+        font-size: 31px;
+    }
+
+    .fa-lightbulb {
+        font-size: 23px;
+    }
+
+    main {
+        width: 90%;
+        height: 81%;
+    }
+
+    input {
+        width: 86%;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    button {
+        height: 25px;
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Noto Serif', serif;
+        color: #fff;
+        padding: 12px 10px 0px 10px;
+    }
+    header nav h1 {
+        font-size: 25px;
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 98%;
+        height: 87%;
+        padding: 9px 8px 5px 8px;
+       
+    }
+    input {
+        width: 80%;
+        height: 25px;
+        font-size: 15px;
+    }
+    button {
+        height: 25px;
+        padding: 0px;
+        width: 17%;
+    }
+
+}
+@media screen and (max-width:350px) {
+    .fa-lightbulb{
+        font-size: 19px;
+    }
+    header nav h1 {
+        font-size: 24px;
+    }
+
+    input::placeholder {
+  
+        font-size: 12px;
+    }
+    input {
+        width: 80%;
+        height: 25px;
+        font-size: 13px;
+    }
+    .result {
+        border: 3px groove rgb(88, 88, 88);
+        width: 100%;
+        height: 100%;
+        margin-top: 8px;
+        border-radius: 5px;
+        padding: 4px 11px;
+        flex-direction: column;
+        color: rgba(255, 255, 255, 0.808);
+        gap: 17px;
+    }
+ footer p{
+    font-size: 14px;
+ }
+}
+@media screen and (max-width:300px) {
+    .result {
+        width: 100%;
+        height: 100%;
+        margin-top: 5px;
+        padding: 5px 5px;
+
+        gap: 10px;
+    }
+    header nav h1 {
+        font-size: 20px;
+    }
+    .fa-lightbulb {
+        font-size: 16px;
+    }
+    main {
+        width: 98%;
+        height: 89%;
+    }
+ input{
+    padding: 0px 0px 3px 8px;
+ }
+    input::placeholder {
+  
+        font-size: 12px;
+    }
+    button{
+        font-size: 11px;
+        height: 23px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    .result p{
+        font-size: 20px;
+    }
+    .result{
+        justify-content: space-around;
+        gap: 18px;
+    }
+    .fa-volume-xmark {
+        margin: 2px 3px 3px 3px;
+        top: 2px;
+        right: -41px;
+        font-size: 17px;
+        width: 20px;
+    }
+    input {
+        width: 80%;
+        height: 23px;
+        font-size: 13px;
+        padding: 0px 0px 1px 8px;
+    }
+
+}
